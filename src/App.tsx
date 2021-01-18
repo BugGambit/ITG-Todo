@@ -67,7 +67,6 @@ function App() {
   return (
     <ApolloProvider client={client}>
       {loggedIn ? <Home /> : <LoginScreen onLogin={setApiKey} />}
-      <Home />
     </ApolloProvider>
   );
 }
