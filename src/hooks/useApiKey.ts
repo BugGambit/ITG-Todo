@@ -7,7 +7,7 @@ export function getApiKeyFromLocalStorage() {
 }
 
 export default function useApiKey() {
-  const [_, setTmp] = useState("");
+  const [, setTmp] = useState("");
   const apiKey = getApiKeyFromLocalStorage();
   const setApiKey = (apiKey: string) => {
     localStorage.setItem(TOKEN_KEY, apiKey);
