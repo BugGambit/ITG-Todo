@@ -96,9 +96,11 @@ export default function TenantSelector({ onLogIn }: Props) {
         <span role="img" aria-label="hi">
           👋
         </span>{" "}
-        Welcome to ITG
+        ITG TODO App
       </Title>
-      <p>You need an api-key to your tenant to log in</p>
+      <p>
+        You need an api-key to the <b>cognite</b> tenant
+      </p>
       <Form
         onFinish={() => {
           onLogIn(apiKey);

@@ -5,8 +5,8 @@ import TenantSelector from "./TenantSelector";
 
 const StyledPage = styled.div`
   display: flex;
-  height: 100%;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
   background: transparent url("/login-screen.jpg") center center no-repeat;
   background-size: cover;
 `;
